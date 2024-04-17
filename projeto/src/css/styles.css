@@ -596,6 +596,11 @@ video {
   margin-right: 0.5rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -613,6 +618,10 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .ml-1 {
@@ -815,6 +824,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -833,6 +847,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .pl-1 {
   padding-left: 0.25rem;
 }
@@ -847,6 +865,10 @@ video {
 
 .pt-1 {
   padding-top: 0.25rem;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .text-center {
@@ -1026,7 +1048,7 @@ video {
   }
 
   .btn-amazon-prime {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     display: flex;
     height: 2rem;
     width: auto;
@@ -1075,6 +1097,10 @@ video {
     margin-right: 0px;
   }
 
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .md\:ml-3 {
     margin-left: 0.75rem;
   }
@@ -1107,8 +1133,20 @@ video {
     width: 75%;
   }
 
+  .md\:w-75px {
+    width: 75px;
+  }
+
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-2\/4 {
+    width: 50%;
+  }
+
+  .md\:w-2 {
+    width: 0.5rem;
   }
 
   .md\:flex-row {
@@ -1139,6 +1177,10 @@ video {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-3xl {

@@ -38,6 +38,6 @@
     }
 
     .btn-amazon-prime {
-        @apply text-xs py-0 ml-10 h-8 flex w-auto;
+        @apply text-xs py-0 ml-8 h-8 flex w-auto;
     }
 }
